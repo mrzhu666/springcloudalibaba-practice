@@ -21,6 +21,10 @@ spring:
     loadbalancer:
       nacos:
         enabled: true
+    sentinel:
+      transport:
+        dashboard: localhost:8858
+
   profiles:
     active: dev
 

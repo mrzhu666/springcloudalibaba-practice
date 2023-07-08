@@ -22,6 +22,9 @@ spring:
       discovery:
         server-addr: localhost:8848
         cluster-name: Chengdu
+    sentinel:
+      transport:
+        dashboard: localhost:8858
 #MyBatis-Plus相关配置
 mybatis-plus:
   configuration:
